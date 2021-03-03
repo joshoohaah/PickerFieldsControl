@@ -1,8 +1,8 @@
 {
     "manifestVersion": 1,
-    "id": "Multi-Pickers-Fields-Control",
-    "version": "1.1.301",
-    "name": "Multi Pickers Fields Control",
+    "id": "Multi-Value-Cascading-Lists",
+    "version": "0.0.102",
+    "name": "Multi-Value Cascading Lists",
     "scopes": [
         "vso.code_full",
         "vso.work",
@@ -13,7 +13,7 @@
         "vso.security_manage"
     ],
     "description": "Pick value from filtered list",
-    "publisher": "AviHadad",
+    "publisher": "jschneider",
     "icons": {
         "default": "img/logo.png"
     },
@@ -44,26 +44,26 @@
     },
     "repository": {
         "type": "git",
-        "uri": "https://github.com/avih75/PickerFieldsControl"
+        "uri": "https://github.com/joshoohaah/PickerFieldsControl"
     },
     "links": {
         "support": {
-            "uri": "https://github.com/avih75/PickerFieldsControl/issues"
+            "uri": "https://github.com/joshoohaah/PickerFieldsControl/issues"
         },
         "license": {
-            "uri": "https://github.com/avih75/PickerFieldsControl/blob/master/LICENSE.md"
+            "uri": "https://github.com/joshoohaah/PickerFieldsControl/blob/master/LICENSE.md"
         },
         "privacypolicy": {
-            "uri": "https://github.com/avih75/PickerFieldsControl/blob/master/PRIVACY.md"
+            "uri": "https://github.com/joshoohaah/PickerFieldsControl/blob/master/PRIVACY.md"
         },
         "learn": {
-            "uri": "https://github.com/avih75/PickerFieldsControl/blob/master/README.md"
+            "uri": "https://github.com/joshoohaah/PickerFieldsControl/blob/master/README.md"
         },
         "repository": {
-            "uri": "https://github.com/avih75/PickerFieldsControl"
+            "uri": "https://github.com/joshoohaah/PickerFieldsControl"
         },
         "issues": {
-            "uri": "https://github.com/avih75/PickerFieldsControl/issues"
+            "uri": "https://github.com/joshoohaah/PickerFieldsControl/issues"
         }
     },
     "files": [{
@@ -171,7 +171,7 @@
                     {
                         "id": "FieldName3",
                         "name": "FieldName3",
-                        "description": "The therd field name",
+                        "description": "The third field name",
                         "type": "TextArea",
                         "validation": {
                             "dataType": "String",
@@ -181,7 +181,7 @@
                     {
                         "id": "Field3",
                         "name": "Field3",
-                        "description": "The therd field workItem Field",
+                        "description": "The third field workItem Field",
                         "type": "WorkItemField",
                         "properties": {
                             "workItemFieldTypes": [
@@ -198,7 +198,7 @@
                     {
                         "id": "FieldName4",
                         "name": "FieldName4",
-                        "description": "The forth field name",
+                        "description": "The fourth field name",
                         "type": "TextArea",
                         "validation": {
                             "dataType": "String",
@@ -208,7 +208,7 @@
                     {
                         "id": "Field4",
                         "name": "Field4",
-                        "description": "The forth field workItem Field",
+                        "description": "The fourth field workItem Field",
                         "type": "WorkItemField",
                         "properties": {
                             "workItemFieldTypes": [
@@ -223,8 +223,170 @@
                         }
                     },
                     {
-                        "id": "Reposetory",
-                        "name": "Reposetory",
+                        "id": "FieldName5",
+                        "name": "FieldName5",
+                        "description": "The fifth field name",
+                        "type": "TextArea",
+                        "validation": {
+                            "dataType": "String",
+                            "isRequired": false
+                        }
+                    },
+                    {
+                        "id": "Field5",
+                        "name": "Field5",
+                        "description": "The fifth field workItem Field",
+                        "type": "WorkItemField",
+                        "properties": {
+                            "workItemFieldTypes": [
+                                "Integer",
+                                "Double",
+                                "String"
+                            ]
+                        },
+                        "validation": {
+                            "dataType": "String",
+                            "isRequired": false
+                        }
+                    },
+                    {
+                        "id": "FieldName6",
+                        "name": "FieldName6",
+                        "description": "The sixth field name",
+                        "type": "TextArea",
+                        "validation": {
+                            "dataType": "String",
+                            "isRequired": false
+                        }
+                    },
+                    {
+                        "id": "Field6",
+                        "name": "Field6",
+                        "description": "The 6th field workItem Field",
+                        "type": "WorkItemField",
+                        "properties": {
+                            "workItemFieldTypes": [
+                                "Integer",
+                                "Double",
+                                "String"
+                            ]
+                        },
+                        "validation": {
+                            "dataType": "String",
+                            "isRequired": false
+                        }
+                    },
+                    {
+                        "id": "FieldName7",
+                        "name": "FieldName7",
+                        "description": "The seventh field name",
+                        "type": "TextArea",
+                        "validation": {
+                            "dataType": "String",
+                            "isRequired": false
+                        }
+                    },
+                    {
+                        "id": "Field7",
+                        "name": "Field7",
+                        "description": "The seventh field workItem Field",
+                        "type": "WorkItemField",
+                        "properties": {
+                            "workItemFieldTypes": [
+                                "Integer",
+                                "Double",
+                                "String"
+                            ]
+                        },
+                        "validation": {
+                            "dataType": "String",
+                            "isRequired": false
+                        }
+                    },
+                    {
+                        "id": "FieldName8",
+                        "name": "FieldName8",
+                        "description": "The eighth field name",
+                        "type": "TextArea",
+                        "validation": {
+                            "dataType": "String",
+                            "isRequired": false
+                        }
+                    },
+                    {
+                        "id": "Field8",
+                        "name": "Field8",
+                        "description": "The eighth field workItem Field",
+                        "type": "WorkItemField",
+                        "properties": {
+                            "workItemFieldTypes": [
+                                "Integer",
+                                "Double",
+                                "String"
+                            ]
+                        },
+                        "validation": {
+                            "dataType": "String",
+                            "isRequired": false
+                        }
+                    },
+                    {
+                        "id": "FieldName9",
+                        "name": "FieldName9",
+                        "description": "The ninth field name",
+                        "type": "TextArea",
+                        "validation": {
+                            "dataType": "String",
+                            "isRequired": false
+                        }
+                    },
+                    {
+                        "id": "Field9",
+                        "name": "Field9",
+                        "description": "The ninth field workItem Field",
+                        "type": "WorkItemField",
+                        "properties": {
+                            "workItemFieldTypes": [
+                                "Integer",
+                                "Double",
+                                "String"
+                            ]
+                        },
+                        "validation": {
+                            "dataType": "String",
+                            "isRequired": false
+                        }
+                    },
+                    {
+                        "id": "FieldName10",
+                        "name": "FieldName10",
+                        "description": "The tenth field name",
+                        "type": "TextArea",
+                        "validation": {
+                            "dataType": "String",
+                            "isRequired": false
+                        }
+                    },
+                    {
+                        "id": "Field10",
+                        "name": "Field10",
+                        "description": "The tenth field workItem Field",
+                        "type": "WorkItemField",
+                        "properties": {
+                            "workItemFieldTypes": [
+                                "Integer",
+                                "Double",
+                                "String"
+                            ]
+                        },
+                        "validation": {
+                            "dataType": "String",
+                            "isRequired": false
+                        }
+                    },
+                    {
+                        "id": "Repository",
+                        "name": "Repository",
                         "description": "This field get the project name and the repository name, use for push the csv content to version control",
                         "type": "TextArea",
                         "validation": {
